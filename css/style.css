@@ -154,7 +154,8 @@ footer div{
   padding: 110px 0px;
 }
 
-/* .popup {
+/* ポップアップ */
+.popup {
     position: fixed;
     left: 0;
     top: 0;
@@ -213,4 +214,4 @@ footer div{
 
 .sample-img{
       width: 500px;
-  } */
+  }

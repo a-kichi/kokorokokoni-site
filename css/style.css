@@ -23,7 +23,7 @@ body{
 
 /* セクション全体 */
 .sec{
-  width: 1200px;
+  width: 80%;/*1200px*/
   background-color: #fff;
   text-align: center;
   margin: auto;
@@ -55,29 +55,27 @@ body{
 /* 作品 */
 .works-all{
   padding-bottom: 450px;
+  background-color: #fff;
 }
 
-/* .img-pa{
-  padding-right: 17px;
-} */
 
 hr{
   border: 1px solid #808080;
   margin: 70px 260px;
 }
 
-.apple{
+.cover{
   background-color: #9D9D9D;
   display:inline-block;
 }
 
-.apple img{
+.cover img{
   opacity: 0.5;
   display:block;
   transition-duration: 0.4s;
 }
 
-.apple::after{
+.cover::after{
   content: '';
   position: absolute;
 
@@ -91,7 +89,7 @@ hr{
   display:block;
 }
 
-.apple img:hover{
+.cover img:hover{
   opacity: 1;
   transition-duration: 0.4s;
 }
@@ -185,6 +183,7 @@ footer div{
     width: 100%;
   }
 
+  /* 閉じる */
   .close-btn {
     position: absolute;
     right: 0;

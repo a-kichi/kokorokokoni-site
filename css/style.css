@@ -11,30 +11,44 @@ body{
 
 /* ファーストビュー */
 .firstview{
-  background-color: #fff;
+  background-color: rgba(0,0,0,.0);
   text-align: center;
 }
 
 .fv-img{
-  margin: 8vw auto 10vw;
-  width: 62.5%;
+  margin: 5.5vw auto 10vw;
+  width: 75%;
 }
 
 
 /* セクション全体 */
+
 .sec{
-  width: 62.5%;/*1200px*/
-  background-color: #fff;
+  width: 75%;/*1200px*/
+  background-color: rgba(255, 255, 255, 0.9);
   text-align: center;
   margin: auto;
+  border-left: #9D9D9D solid 2px;
+  border-right: #9D9D9D solid 2px;
 }
 .sec-title{
   font-size: 3vw;
   color: #9D9D9D;
-  padding-bottom: 2vw;
+  padding-bottom: 3vw;
+}
+
+body{
+  background-image: url(../img/back.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 /* イントロ */
+#intro{
+  border-top: #9D9D9D solid 2px;
+}
+
 #intro img{
   width: 30%;
   margin: 13vw 0px 2vw;
@@ -99,7 +113,7 @@ hr{
 /* イベ情報 */
 .info-txt{
   float: left;
-  padding-left: 2vw;
+  padding-left: 7vw;
 }
 
 .info-txt h2{
@@ -117,25 +131,22 @@ hr{
 #info h3{
   font-size: 1.5vw;
   color: #9D9D9D;
-  padding: 3vw 0px 23vw;
+  padding: 8vw 0px 20vw;
   clear: both;
 }
 
 .map{
-  padding-right: 1.5vw;
+  padding-right: 7vw;
   width: 30vw;
   height: 20vw;
   float: right;
 }
 
 /* フッター */
-footer{
-  height: 9vw;
-}
-
 ul{
   list-style: none;
 }
+
 ul a{
   text-decoration: none;
   float: left;
@@ -144,14 +155,19 @@ ul a{
   color: #9D9D9D;
 }
 
-footer p{
+footer p a{
+  list-style: none;
+  text-decoration: none;
   float: right;
   font-size: 1.5vw;
   color: #9D9D9D;
 }
 
 footer div{
-  padding: 3vw 0px;
+  padding: 0vw 7vw 8vw;
+  background-color: #fff;
+  margin-bottom: 4vw;
+  border-bottom: #9D9D9D solid 2px;
 }
 
 /* ポップアップ */
@@ -175,14 +191,48 @@ footer div{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    width: 80%;
-    max-width: 600px;
-    padding: 50px;
+    width: 60vw;
+    height: 28vw;
+    padding: 4vw;
     background-color: #fff;
     z-index: 2;
   }
+
+  .pop-contonts{
+    padding: 5.5vw 0px 6.5vw;
+    /* background-color: rgb(78, 58, 58); */
+  }
+
   .popup-inner img {
-    width: 100%;
+    width: 29vw;
+    float: left;
+  }
+
+  .pop-txt{
+    /* background-color: red; */
+    padding: 0px 0.1vw 0px 1.1vw;
+    width: 49%;
+    float: left;
+  }
+
+  .photo-title{
+    font-size: 2vw;
+    padding-top: 0.85vw;
+  }
+
+  .photo-memo{
+    font-size: 1vw;
+    padding-top: 0.6vw;
+  }
+
+  .name{
+    font-size: 1.3vw;
+    padding-top: 2vw;
+  }
+
+  .people-memo{
+    font-size: 0.9vw;
+    padding-top: 0.4vw;
   }
 
   /* 閉じる */

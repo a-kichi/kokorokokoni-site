@@ -9,9 +9,9 @@
   // }
 
   const modalWrapOpen = function(e) {
-    document.querySelector('.popup').classList.toggle('is-show');
-    document.querySelector('#modal-img').src = e.getAttribute('data-image-url');
-    document.querySelector('#modal-title').innerText = e.getAttribute('data-title')
+    document.querySelector('#modal-img').src = e.currentTarget.getAttribute('data-image-url');
+    document.querySelector('#modal-title').innerText = e.currentTarget.getAttribute('data-title');
+    document.querySelector('.popup').classList.toggle('is-show')
   }
   
   Array.from(document.querySelectorAll('.default-content')).forEach((modalOpenElement) => {

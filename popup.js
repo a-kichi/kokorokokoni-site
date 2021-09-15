@@ -1,31 +1,17 @@
-// function popupImage() {
-//     var popup = document.getElementById('js-popup');
-//     if(!popup) return;
-  
-//     var blackBg = document.getElementById('js-black-bg');
-//     var closeBtn = document.getElementById('js-close-btn');
-//     var showBtn = document.getElementById('js-show-popup');
-  
-//     closePopUp(blackBg);
-//     closePopUp(closeBtn);
-//     closePopUp(showBtn);
-//     function closePopUp(elem) {
-//       if(!elem) return;
-//       elem.addEventListener('click', function() {
-//         popup.classList.toggle('is-show');
-//       });
-//     }
-//   }
-//   popupImage();
-  // https://tech-dig.jp/js-modal/
+  // const modalWrapOpen = function(e) {
+  //   const dataModalOpen = e.currentTarget.dataset.modalOpen;
+  //   Array.from(document.querySelectorAll('.popup')).forEach((e, i) => {
+  //     if(e.getAttribute('data-modal') === dataModalOpen){
+  //       e.classList.toggle('is-show');
+  //       document.querySelector("画像のCSSセレクタ").src = "写真のURL";
+  //     }
+  //   })
+  // }
 
   const modalWrapOpen = function(e) {
-    const dataModalOpen = e.currentTarget.dataset.modalOpen;
-    Array.from(document.querySelectorAll('.popup')).forEach((e, i) => {
-      if(e.getAttribute('data-modal') === dataModalOpen){
-        e.classList.toggle('is-show');
-      }
-    })
+    document.querySelector('.popup').classList.toggle('is-show');
+    document.querySelector('#modal-img').src = e.getAttribute('data-image-url');
+    document.querySelector('#modal-title').innerText = e.getAttribute('data-title')
   }
   
   Array.from(document.querySelectorAll('.default-content')).forEach((modalOpenElement) => {

@@ -423,12 +423,18 @@ footer div {
   max-height: 90%;
 }
 
+.pop-contents{
+  display: inline-block;
+}
+
 .popup-inner img {
   width: 57vw;
+  height: auto;
   float: none;
   padding: 5vw 0px 2vw;
   /* background-color: red; */
 }
+
 
 .pop-txt {
   padding: 0vw 0.1vw 2px 0vw;

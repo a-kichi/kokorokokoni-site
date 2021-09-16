@@ -217,10 +217,9 @@ footer div {
 
 .pop-txt {
   /* background-color: red; */
-  padding: 2vw 0.1vw 2px 1.1vw;
+  padding: 4vw 0.1vw 2px 1.1vw;
   width: 49%;
   float: left;
-  /* background-color: blue; */
 }
 
 #modal #photo-title {

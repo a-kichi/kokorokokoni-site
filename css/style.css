@@ -113,6 +113,20 @@ hr {
   transition-duration: 0.4s;
 }
 
+.before {
+  position: relative;
+  width: 11vw;
+  padding-top: 270%;
+  overflow: hidden;
+}
+
+.before img {
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+  height: 100%;
+}
+
 /* イベ情報 */
 .info-txt {
   float: left;

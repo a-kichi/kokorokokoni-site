@@ -1,18 +1,25 @@
 class BeforeButton extends HTMLElement {
   constructor() {
     super();
-
     const photoId = this.getAttribute('data-photo-id')
+    const posX = this.getAttribute('data-pos-x')
+    const zoom = this.getAttribute('data-zoom')
+
+    const div = document.createElement('div')
+    div.classList.add('before')
     const picture = document.createElement('picture')
     const source = document.createElement('source')
-    source.srcset = `/img/before-img/bfr-${photoId}.webp`
+    source.srcset = `/photos/${photoId}.webp`
     source.type = 'image/webp'
     const img = document.createElement('img')
-    img.src = `/img/before-img/bfr-${photoId}.png`
+    img.src = `/photos/${photoId}.png`
+    img.style.objectPosition = `${posX}%`
+    img.style.transform = `scale(${zoom})`
 
     picture.appendChild(source)
     picture.appendChild(img)
-    this.appendChild(picture)
+    div.appendChild(picture)
+    this.appendChild(div)
   }
 }
 

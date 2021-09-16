@@ -17,7 +17,8 @@ body {
 
 .fv-img {
   margin: 5.5vw auto 10vw;
-  width: 75%;
+  width: 75vw;
+  height: 42.25vw;
   position: relative;
 }
 
@@ -54,6 +55,7 @@ body {
 
 #intro img {
   width: 30%;
+  aspect-ratio: 1;
   margin: 13vw 0px 2vw;
   border: 1px solid #9c9c9c;
 }
@@ -125,6 +127,7 @@ hr {
   top: 0;
   object-fit: cover;
   height: 100%;
+  width: 100%;
 }
 
 /* イベ情報 */

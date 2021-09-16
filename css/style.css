@@ -333,7 +333,7 @@ before-button img:hover {
     font-size: 3vw;
     padding: 25vw 11.6vw 0vw;
     line-height: 35px;
-    color: #797979;
+    color: #727272;
   }
 
   /* 作品 */
@@ -368,7 +368,7 @@ before-button img {
 
 .info-txt p {
   font-size: 3.2vw;
-  color: #797979;
+  color: #727272;
   padding: 1.8vw 0px 0px;
 }
 
@@ -398,7 +398,7 @@ ul a {
   float: left;
   padding: 0.5vw 0vw 0vw 2vw;
   font-size: 2.5vw;
-  color: #797979;
+  color: #727272;
 }
 
 footer p a {
@@ -406,7 +406,7 @@ footer p a {
   text-decoration: none;
   float: right;
   font-size: 2.5vw;
-  color: #797979;
+  color: #727272;
 }
 
 footer div {
@@ -437,11 +437,12 @@ footer div {
 
 
 .pop-txt {
-  padding: 0vw 0.1vw 2px 0vw;
-  width: 77%;
+  padding: 0vw 0vw 2px 0vw;
+  width: 83%;
   float: none;
   margin: 0 auto;
   /* background-color: blue; */
+  color: #727272;
 }
 
 #modal #title {
@@ -450,17 +451,18 @@ footer div {
 }
 
 #modal #description {
-  font-size: 2.3vw;
+  font-size: 2.5vw;
   padding-top: 1vw;
+  /* background-color: #333; */
 }
 
 #modal #author {
-  font-size: 2.9vw;
+  font-size: 3.1vw;
   padding-top: 3vw;
 }
 
 #modal #author-memo {
-  font-size: 1.5vw;
+  font-size: 2.3vw;
   padding: 0.6vw 0px 3.5vw;
 }
 

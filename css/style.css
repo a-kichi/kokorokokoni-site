@@ -62,13 +62,13 @@ body {
 #intro h2 {
   font-size: 2.5vw;
   color: #9c9c9c;
-  padding: 5vw 0px 25vw;
+  padding: 4.5vw 0px 25vw;
 }
 
 #intro p {
   font-size: 1.5vw;
-  color: #9c9c9c;
-  padding: 25vw 0px 0vw;
+  color: #858585;
+  padding: 23vw 0px 0vw;
   line-height: 45px;
 }
 
@@ -97,7 +97,7 @@ hr {
 
 .info-txt p {
   font-size: 1.7vw;
-  color: #9c9c9c;
+  color: #858585;
   padding: 1vw 0px 0px;
 }
 
@@ -126,7 +126,7 @@ ul a {
   float: left;
   padding-left: 2vw;
   font-size: 1.5vw;
-  color: #9c9c9c;
+  color: #858585;
 }
 
 .insta:before {
@@ -139,12 +139,12 @@ footer p a {
   text-decoration: none;
   float: right;
   font-size: 1.5vw;
-  color: #9c9c9c;
+  color: #858585;
 }
 
 footer div {
   padding: 0vw 7vw 9vw;
-  margin-bottom: 6vw;
+  margin-bottom: 10vw;
   /* border-bottom: #9c9c9c solid 2px; */
 }
 
@@ -317,7 +317,7 @@ before-button img:hover {
 
   .sec-title {
     font-size: 3.2vw;
-    color: #9c9c9c;
+    color: #858585;
     padding-bottom: 3.5vw;
   }
 
@@ -326,12 +326,14 @@ before-button img:hover {
   #intro h2 {
     font-size: 4.3vw;
     padding: 5vw 0px 25vw;
+    color: #858585;
   }
 
   #intro p {
     font-size: 3vw;
     padding: 25vw 11.6vw 0vw;
     line-height: 35px;
+    color: #797979;
   }
 
   /* 作品 */
@@ -361,18 +363,18 @@ before-button img {
 .info-txt h2 {
   padding: 0.5vw 0px 0px;
   font-size: 3.7vw;
-  color: #9c9c9c;
+  color: #858585;
 }
 
 .info-txt p {
   font-size: 3.2vw;
-  color: #9c9c9c;
+  color: #797979;
   padding: 1.8vw 0px 0px;
 }
 
 #info h3 {
   font-size: 2.7vw;
-  color: #9c9c9c;
+  color: #858585;
   padding: 10vw 0px 45vw;
   clear: both;
 }
@@ -396,7 +398,7 @@ ul a {
   float: left;
   padding: 0.5vw 0vw 0vw 2vw;
   font-size: 2.5vw;
-  color: #9c9c9c;
+  color: #797979;
 }
 
 footer p a {
@@ -404,11 +406,11 @@ footer p a {
   text-decoration: none;
   float: right;
   font-size: 2.5vw;
-  color: #9c9c9c;
+  color: #797979;
 }
 
 footer div {
-  padding: 0vw 7vw 15vw;
+  padding: 0vw 7vw 13vw;
   margin-bottom: 16vw;
 }
 

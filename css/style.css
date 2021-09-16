@@ -26,93 +26,97 @@ body {
 .sec {
   width: 75%;
   /*1200px*/
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.7);
   text-align: center;
   margin: auto;
-  border-left: #9D9D9D solid 2px;
-  border-right: #9D9D9D solid 2px;
+  /* border-left: #9c9c9c solid 2px;
+  border-right: #9c9c9c solid 2px; */
 }
 
 .sec-title {
-  font-size: 3vw;
-  color: #9D9D9D;
-  padding-bottom: 3vw;
+  font-size: 2vw;
+  color: #9c9c9c;
+  padding-bottom: 5vw;
 }
 
 body {
   background-image: url(../img/back.png);
+  background-color:rgba(230, 254, 255, 0.3);
+  background-blend-mode:lighten;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
 }
 
 /* イントロ */
-#intro {
-  border-top: #9D9D9D solid 2px;
-}
+/* #intro {
+  border-top: #9c9c9c solid 2px;
+} */
 
-#intro img {
-  width: 30%;
-  margin: 13vw 0px 2vw;
+/* #intro img {
+  width: 33%;
+  margin: 15vw 0px 2vw;
   border: 1px solid #9c9c9c;
-}
+} */
 
 #intro h2 {
   font-size: 2.5vw;
   color: #9c9c9c;
-  padding: 1.5vw 0px;
+  padding: 5vw 0px 25vw;
 }
 
 #intro p {
   font-size: 1.5vw;
   color: #9c9c9c;
-  padding-bottom: 23vw;
+  padding: 25vw 0px 0vw;
+  line-height: 45px;
 }
 
 /* 作品 */
 .works-all {
-  padding-bottom: 23vw;
+  padding-bottom: 25vw;
   /* background-color: #fff; */
 }
 
 hr {
-  border: 1px solid #9D9D9D;
-  margin: 4vw 13vw;
+  border: 1px solid #9c9c9c;
+  margin: 6vw 13vw;
 }
 
 /* イベ情報 */
 .info-txt {
   float: left;
-  padding-left: 7vw;
+  padding-left: 8.4vw;
 }
 
 .info-txt h2 {
   padding: 4vw 0px 0px;
   font-size: 2vw;
-  color: #9D9D9D;
+  color: #9c9c9c;
 }
 
 .info-txt p {
   font-size: 1.7vw;
-  color: #9D9D9D;
+  color: #9c9c9c;
   padding: 1vw 0px 0px;
 }
 
 #info h3 {
   font-size: 1.5vw;
-  color: #9D9D9D;
-  padding: 8vw 0px 20vw;
+  color: #9c9c9c;
+  padding: 4vw 0px 30vw;
   clear: both;
 }
 
 .map {
-  padding-right: 7vw;
+  padding-right: 8.4vw;
   width: 30vw;
   height: 20vw;
   float: right;
 }
 
 /* フッター */
+
 ul {
   list-style: none;
 }
@@ -122,7 +126,7 @@ ul a {
   float: left;
   padding-left: 2vw;
   font-size: 1.5vw;
-  color: #9D9D9D;
+  color: #9c9c9c;
 }
 
 .insta:before {
@@ -135,15 +139,15 @@ footer p a {
   text-decoration: none;
   float: right;
   font-size: 1.5vw;
-  color: #9D9D9D;
+  color: #9c9c9c;
 }
 
 footer div {
-  padding: 0vw 7vw 8vw;
-  background-color: #fff;
-  margin-bottom: 4vw;
-  border-bottom: #9D9D9D solid 2px;
+  padding: 0vw 7vw 9vw;
+  margin-bottom: 6vw;
+  /* border-bottom: #9c9c9c solid 2px; */
 }
+
 
 /* モーダル */
 .popup {
@@ -168,31 +172,39 @@ footer div {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 60vw;
+  width: 55vw;
   height: auto;
+  max-height: 70%;
   padding: 4vw;
   background-color: #fff;
   z-index: 2;
 }
 
 .popup-inner img {
-  width: 29vw;
+  width: 28vw;
+  height: 26vw;
   float: left;
-  padding: 2vw 0px 2vw;
+  padding: 0vw 0vw 0vw 0px;
+  object-fit: contain;
   /* background-color: red; */
 }
 
+.pop-contents{
+  display: flex;
+  align-items: center;
+}
+
 .pop-txt {
-  /* background-color: red; */
-  padding: 2vw 0.1vw 2px 1.1vw;
-  width: 49%;
+  padding: 0vw 0vw 0px 1.5vw;
+  width: 45%;
   float: left;
   /* background-color: blue; */
 }
 
 #modal #title {
-  font-size: 2vw;
-  padding-top: 0.85vw;
+  font-size: 1.8vw;
+  padding-top: 0vw;
+  /* background-color: red; */
 }
 
 #modal #photo-img {
@@ -228,7 +240,7 @@ footer div {
 
 #modal #close-btn i {
   font-size: 20px;
-  color: #9D9D9D;
+  color: #9c9c9c;
 }
 
 .black-background {
@@ -257,7 +269,7 @@ w-author-en {
 }
 
 before-button {
-  background-color: #9D9D9D;
+  background-color: #9c9c9c;
   display: inline-block;
 }
 
@@ -293,51 +305,44 @@ before-button img:hover {
 
   /* ファーストビュー */
   .fv-img {
+    margin: 10vw auto 10vw;
     width: 81%;
   }
 
   /* セクション */
   .sec {
     width: 80%;
-    border-left: #9D9D9D solid 1px;
-    border-right: #9D9D9D solid 1px;
+
   }
 
   .sec-title {
-    font-size: 4vw;
-    color: #9D9D9D;
+    font-size: 3.2vw;
+    color: #9c9c9c;
     padding-bottom: 3.5vw;
   }
 
   /* イントロ */
 
-  #intro {
-    border-top: #9D9D9D solid 1px;
-  }
-
-  #intro img {
-    width: 53%;
-    margin: 20vw 0px 2vw;
-  }
-
   #intro h2 {
     font-size: 4.3vw;
-    padding: 2.5vw 0px;
+    padding: 5vw 0px 25vw;
   }
-  
+
   #intro p {
     font-size: 3vw;
-    padding: 0vw 8vw 32vw;
+    padding: 25vw 11.6vw 0vw;
+    line-height: 35px;
   }
 
   /* 作品 */
 
   .works-all {
-    padding-bottom: 32vw;
+    padding-bottom: 35vw;
     /* background-color: #fff; */
   }
 hr {
   border:solid #c4c4c4 1px;
+  margin: 7vw 13vw;
 }
 
 before-button img {
@@ -354,30 +359,30 @@ before-button img {
 }
 
 .info-txt h2 {
-  padding: 0vw 0px 0px;
-  font-size: 4vw;
-  color: #9D9D9D;
+  padding: 0.5vw 0px 0px;
+  font-size: 3.7vw;
+  color: #9c9c9c;
 }
 
 .info-txt p {
   font-size: 3.2vw;
-  color: #9D9D9D;
-  padding: 1vw 0px 5px;
+  color: #9c9c9c;
+  padding: 1.8vw 0px 0px;
 }
 
 #info h3 {
-  font-size: 2.5vw;
-  color: #9D9D9D;
-  padding: 5vw 0px 40vw;
+  font-size: 2.7vw;
+  color: #9c9c9c;
+  padding: 10vw 0px 45vw;
   clear: both;
 }
 
 .map {
-  padding-right: 0vw;
-  width: 60vw;
-  height: 40vw;
+  padding: 2vw 0vw 0px 0px;
+  width: 63.5vw;
+  height: 43.5vw;
   float: none;
-  background-color: rgb(102, 71, 71);
+  /* background-color: rgb(102, 71, 71); */
 }
 
 /* フッター */
@@ -391,33 +396,29 @@ ul a {
   float: left;
   padding: 0.5vw 0vw 0vw 2vw;
   font-size: 2.5vw;
-  color: #9D9D9D;
-}
-
-.insta:before {
-  font-size: 2.5vw;
-  line-height: 0.9em;
+  color: #9c9c9c;
 }
 
 footer p a {
   list-style: none;
   text-decoration: none;
   float: right;
-  font-size: 3vw;
-  color: #9D9D9D;
+  font-size: 2.5vw;
+  color: #9c9c9c;
 }
 
 footer div {
-  padding: 0vw 7vw 12vw;
-  background-color: #fff;
-  margin-bottom: 14vw;
-  border-bottom: #9D9D9D solid 1px;
+  padding: 0vw 7vw 15vw;
+  margin-bottom: 16vw;
 }
+
+/* modal */
 
 .popup-inner {
   width: 70vw;
   height: auto;
   padding: 4vw;
+  max-height: 90%;
 }
 
 .popup-inner img {
@@ -452,7 +453,7 @@ footer div {
 
 #modal #author-memo {
   font-size: 1.5vw;
-  padding: 0.6vw 0px 3vw;
+  padding: 0.6vw 0px 3.5vw;
 }
 
 }

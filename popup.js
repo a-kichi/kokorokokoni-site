@@ -1,28 +1,27 @@
-  // const modalWrapOpen = function(e) {
-  //   const dataModalOpen = e.currentTarget.dataset.modalOpen;
-  //   Array.from(document.querySelectorAll('.popup')).forEach((e, i) => {
-  //     if(e.getAttribute('data-modal') === dataModalOpen){
-  //       e.classList.toggle('is-show');
-  //       document.querySelector("画像のCSSセレクタ").src = "写真のURL";
-  //     }
-  //   })
-  // }
+window.$ = (s) => document.querySelector(s)
 
-  const modalWrapOpen = function(e) {
-    document.querySelector('#modal-img').src = e.currentTarget.getAttribute('data-image-url');
-    document.querySelector('#modal-title').innerText = e.currentTarget.getAttribute('data-title');
-    document.querySelector('.popup').classList.toggle('is-show')
-  }
+document.addEventListener("DOMContentLoaded", () => {
+  // モーダルを開く
+  document.querySelectorAll("before-button").forEach((e) => {
+    e.addEventListener("click", (e) => {
+      const photoId = e.currentTarget.getAttribute('data-photo-id');
+      const work = works[photoId];
+
+      $("#photo-img").src = `/photos/${photoId}.jpg`;
+      $("#photo-img-webp").srcset = `/photos/${photoId}.webp`;
+      $("#title").innerText = work?.title || "";
+      $("#description").innerText = work?.description || "";
+      $("#author").innerText = work?.author || "";
+      $("#author-memo").innerText = work?.authorMemo || "";
+      $("#modal").classList.toggle("is-show");
+    })
+  });
   
-  Array.from(document.querySelectorAll('.default-content')).forEach((modalOpenElement) => {
-    modalOpenElement.addEventListener('click', modalWrapOpen);
-  })
-  
-  const modalCloseAction = function(e) {
-    const targetModal = e.currentTarget.closest('.popup');
-    targetModal.classList.toggle('is-show')
-  };
-  
-  Array.from(document.querySelectorAll('.close-btn, .black-background')).forEach((modalCloseElement) => {
-    modalCloseElement.addEventListener('click', modalCloseAction)
-  })
+  // モーダルを閉じる
+  document.querySelectorAll("#modal #close-btn, .black-background").forEach((e) => {
+    e.addEventListener("click", (event) => {
+      const targetModal = event.currentTarget.closest(".popup");
+      targetModal.classList.toggle("is-show");
+    });
+  });
+})

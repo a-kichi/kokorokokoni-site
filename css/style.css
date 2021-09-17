@@ -26,6 +26,15 @@ body {
   width: 75vw;
 }
 
+.fv-img.pc {
+  height: 42.25vw;
+  object-fit: contain;
+}
+
+.fv-img.sp {
+  height: 115vw;
+}
+
 .fv-img, .before img, .background {
   opacity: 0;
   transition: opacity .3s;

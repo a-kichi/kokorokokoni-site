@@ -34,8 +34,12 @@ body {
   transition: opacity .3s;
 }
 
-.fv-img.lazyloaded, .before img.lazyloaded, .background.lazyloaded {
+.fv-img.lazyloaded, .background.lazyloaded {
   opacity: 1;
+}
+
+.before img.lazyloaded {
+  opacity: 0.5;
 }
 
 /* セクション全体 */
@@ -333,7 +337,7 @@ before-button::after {
 }
 
 before-button img:hover {
-  opacity: 1;
+  opacity: 1 !important;
   transition-duration: 0.4s;
 }
 

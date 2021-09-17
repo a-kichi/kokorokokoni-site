@@ -48,12 +48,18 @@ body {
 }
 
 body {
-  background-image: url(../img/back.png);
   background-color:rgba(230, 254, 255, 0.3);
   background-blend-mode:lighten;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+}
+
+.no-webp body {
+  background-image: url(/img/back.png);
+}
+.webp body {
+  background-image: url(/img/back.webp);
 }
 
 /* イントロ */

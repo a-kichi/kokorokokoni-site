@@ -29,7 +29,7 @@ body {
   position: relative;
 }
 
-.fv-img, .before img, .background.lazyloading {
+.fv-img, .before img, .background {
   opacity: 0;
   transition: opacity .3s;
 }

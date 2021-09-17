@@ -24,8 +24,6 @@ body {
 .fv-img {
   margin: 5.5vw auto 10vw;
   width: 75vw;
-  height: 42.25vw;
-  position: relative;
 }
 
 .fv-img, .before img, .background {
@@ -46,7 +44,7 @@ body {
 .sec {
   width: 75%;
   /*1200px*/
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.6);
   text-align: center;
   margin: auto;
   /* border-left: #9c9c9c solid 2px;
@@ -89,9 +87,13 @@ body {
 
 #intro p {
   font-size: 1.5vw;
-  color: #858585;
+  color: #797979;
   padding: 23vw 0px 0vw;
   line-height: 45px;
+}
+
+.sp{
+  display: none;
 }
 
 /* 作品 */
@@ -342,43 +344,54 @@ before-button img:hover {
 
   /* ファーストビュー */
   .fv-img {
-    margin: 10vw auto 10vw;
-    width: 81%;
+    margin: 13vw auto 13vw;
+    width: 87%;
+  }
+
+  .pc{
+    display: none;
   }
 
   /* セクション */
   .sec {
-    width: 80%;
-
+    width: 87%;
   }
 
   .sec-title {
-    font-size: 3.2vw;
+    font-size: 1.2em;
     color: #858585;
-    padding-bottom: 3.5vw;
+    padding-bottom: 6vw;
   }
 
   /* イントロ */
 
   #intro h2 {
-    font-size: 4.3vw;
-    padding: 5vw 0px 25vw;
+    font-size: 1.6em;
+    padding: 7.3vw 0px 40vw;
     color: #858585;
   }
 
   #intro p {
-    font-size: 3vw;
-    padding: 25vw 11.6vw 0vw;
-    line-height: 35px;
+    font-size: 1em;
+    padding: 35vw 6vw 0vw;
+    line-height: 44px;
     color: #727272;
+  }
+
+  .sp{
+    display: inline;
   }
 
   /* 作品 */
 
   .works-all {
-    padding-bottom: 35vw;
-    /* background-color: #fff; */
+    padding-bottom: 40vw;
   }
+
+  .before{
+    width: 13.5vw;
+  }
+
 hr {
   border:solid #c4c4c4 1px;
   margin: 7vw 13vw;
@@ -391,64 +404,81 @@ before-button img {
 /* イベ情報 */
 .info-txt {
   float: none;
-  width: 70%;
+  width: 87%;
   padding: 0px 0px 5vw;
   /* background: rgb(110, 52, 52); */
   margin: 0px auto;
 }
 
 .info-txt h2 {
-  padding: 0.5vw 0px 0px;
-  font-size: 3.7vw;
+  padding: 0.5vw 0px 0px 0px;
+  font-size: 1.3em;
   color: #858585;
 }
 
 .info-txt p {
-  font-size: 3.2vw;
+  font-size: 1.2em;
   color: #727272;
-  padding: 1.8vw 0px 0px;
+  padding: 2vw 0px 0px;
+}
+
+.info-txt .place{
+  font-size: 1em;
+  padding: 2vw 0px 4px;
 }
 
 #info h3 {
-  font-size: 2.7vw;
-  color: #858585;
-  padding: 10vw 0px 45vw;
+  font-size: 1em;
+  color: #727272;
+  padding: 10vw 0px 55vw;
   clear: both;
+  line-height: 30px;
 }
 
 .map {
-  padding: 2vw 0vw 0px 0px;
-  width: 63.5vw;
-  height: 43.5vw;
+  padding: 4vw 0vw 0px 0px;
+  width: 73vw;
+  height: 60vw;
   float: none;
   /* background-color: rgb(102, 71, 71); */
 }
 
 /* フッター */
 
+.insta:before {
+  font-size: 1.3em;
+  line-height: 1.4em;
+  padding-right: 2vw;
+}
+
+
 ul {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5vw;
 }
 
 ul a {
   text-decoration: none;
-  float: left;
-  padding: 0.5vw 0vw 0vw 2vw;
-  font-size: 2.5vw;
+  float: none;
+  padding: 0.5vw 0vw 0vw 3vw;
+  font-size: 1em;
   color: #727272;
 }
 
 footer p a {
   list-style: none;
   text-decoration: none;
-  float: right;
-  font-size: 2.5vw;
+  float: none;
+  font-size: 1.3em;
   color: #727272;
+  padding: 0px 0px 10px 2vw;
 }
 
 footer div {
   padding: 0vw 7vw 13vw;
-  margin-bottom: 16vw;
+  margin-bottom: 25vw;
 }
 
 /* modal */
@@ -468,7 +498,7 @@ footer div {
   width: 57vw;
   height: auto;
   float: none;
-  padding: 5vw 0px 2vw;
+  padding: 5.3vw 0px 2vw;
   /* background-color: red; */
 }
 

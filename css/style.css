@@ -411,7 +411,7 @@ before-button img {
 }
 
 .info-txt h2 {
-  padding: 0.5vw 0px 0px 0px;
+  padding: 0.3vw 0px 0px 0px;
   font-size: 1.3em;
   color: #858585;
 }
@@ -498,7 +498,7 @@ footer div {
   width: 57vw;
   height: auto;
   float: none;
-  padding: 5.3vw 0px 2vw;
+  padding: 5.4vw 0px 2vw;
   /* background-color: red; */
 }
 
@@ -513,23 +513,23 @@ footer div {
 }
 
 #modal #title {
-  font-size: 4vw;
+  font-size: 1.2em;
   padding-top: 0.85vw;
 }
 
 #modal #description {
-  font-size: 2.5vw;
+  font-size: 0.8em;
   padding-top: 1vw;
   /* background-color: #333; */
 }
 
 #modal #author {
-  font-size: 3.1vw;
+  font-size: 1em;
   padding-top: 3vw;
 }
 
 #modal #author-memo {
-  font-size: 2.3vw;
+  font-size: 0.7em;
   padding: 0.6vw 0px 3.5vw;
 }
 

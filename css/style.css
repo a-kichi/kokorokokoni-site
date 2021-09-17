@@ -5,7 +5,8 @@
 
 @font-face {
   font-family: "Klee";
-  src: url("../font/KleeOne-SemiBold.ttf");
+  src: url("/font/KleeOne-SemiBold.ttf");
+  font-display: swap;
 }
 
 body {

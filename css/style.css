@@ -29,6 +29,14 @@ body {
   position: relative;
 }
 
+.fv-img, .before img {
+  opacity: 0;
+  transition: opacity .3s;
+}
+
+.fv-img.lazyloaded, .before img.lazyloaded {
+  opacity: 1;
+}
 
 /* セクション全体 */
 

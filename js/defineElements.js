@@ -12,11 +12,12 @@ class BeforeButton extends HTMLElement {
     source.srcset = `/photos/${photoId}.webp`
     source.type = 'image/webp'
     const img = document.createElement('img')
-    img.src = `/photos/${photoId}.png`
+    img.setAttribute('data-src', `/photos/${photoId}.webp`)
+    img.classList.add('lazyload')
     img.style.objectPosition = `${posX}%`
     img.style.transform = `scale(${zoom})`
 
-    picture.appendChild(source)
+    // picture.appendChild(source)
     picture.appendChild(img)
     div.appendChild(picture)
     this.appendChild(div)

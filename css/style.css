@@ -237,6 +237,7 @@ footer div {
   padding: 0vw 0vw 0px 1.5vw;
   width: 45%;
   float: left;
+  color: #797979;
   /* background-color: blue; */
 }
 
@@ -495,7 +496,7 @@ footer div {
 }
 
 .popup-inner img {
-  width: 57vw;
+  width: 55vw;
   height: auto;
   float: none;
   padding: 5.4vw 0px 2vw;

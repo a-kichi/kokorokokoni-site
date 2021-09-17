@@ -509,7 +509,7 @@ footer div {
   float: none;
   margin: 0 auto;
   /* background-color: blue; */
-  color: #575757;
+  color: #505050;
 }
 
 #modal #title {
@@ -518,18 +518,18 @@ footer div {
 }
 
 #modal #description {
-  font-size: 0.8em;
+  font-size: 0.6em;
   padding-top: 1vw;
   /* background-color: #333; */
 }
 
 #modal #author {
   font-size: 1em;
-  padding-top: 3vw;
+  padding-top: 3.2vw;
 }
 
 #modal #author-memo {
-  font-size: 0.7em;
+  font-size: 0.5em;
   padding: 0.6vw 0px 3.5vw;
 }
 

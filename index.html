@@ -5,16 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="preload" as="style" onload="this.rel='stylesheet'">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="preload" as="style" onload="this.rel='stylesheet'">
     <title>こころ、ここに。</title>
-    <link rel="preload" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" as="style" onload="this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"></noscript>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    </noscript>
     <script>!function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);</script>
   </head>
 
   <body>
     <header class="firstview" id="f-view">
       <picture>
-        <source type="image/webp" srcset="img/firstview.webp" />
+        <source type="image/webp" srcset="img/firstview.png" />
         <img src="img/firstview.png" alt="こころ、ここに。" class="fv-img" />
       </picture>
     </header>
@@ -22,21 +26,23 @@
     <wrapper>
       <section class="sec" id="intro">
         <div class="intro">
-          <picture>
+          <!-- <picture>
             <source type="image/webp" srcset="img/logo.webp" />
             <img src="img/logo.png" alt="こころ、ここに。 ロゴ" />
-          </picture>
+          </picture> -->
 
-          <h2>「 こころ、ここに。」</h2>
+          <!-- <h2>「 こころ、ここに。」</h2> -->
           <p>
             あの日、あの瞬間。僕たち、私たちの心は確かに揺れていた。<br />
             あの時感じた「情動」にもう一度会いに行ける写真展。
           </p>
+
+          <h2>「 こころ、ここに。」</h2>
         </div>
       </section>
 
       <section class="sec" id="works">
-        <h1 class="sec-title">出展作品</h1>
+        <h1 class="sec-title">– 出展作品 –</h1>
         <div class="works-all">
           <before-button data-photo-id="ciel" data-pos-x="73" data-zoom="2.1"></before-button>
           <before-button data-photo-id="jesse" data-pos-x="43" data-zoom="1.1"></before-button>
@@ -70,7 +76,7 @@
         <!-- モーダル -->
         <div class="popup" data-modal="modal-1" id="modal">
           <div class="popup-inner">
-            <div id="close-btn"><i class="fas fa-times"></i></div>
+            <div id="close-btn"><i class="material-icons">close</i></div>
             <div class="pop-contents">
 
               <picture>
@@ -91,18 +97,18 @@
       </section>
 
       <section class="sec" id="info">
-        <h1 class="sec-title">イベント</h1>
+        <h1 class="sec-title">– イベント情報 –</h1>
         <div class="info-txt">
           <h2>写真展「こころ、ここに。」</h2>
           <p>9.18(sat) 15:00-18:00<br />9.19(sun) 10:30-18:00</p>
           <p>京都河原町　Sen｜泉</p>
         </div>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204.265456733707!2d135.7690889070554!3d35.00051389412025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108bf07ff1fc5%3A0x6f9e27202dbae140!2z44CSNjAwLTgwMTQg5Lqs6YO95bqc5Lqs6YO95biC5LiL5Lqs5Yy65ZKM5rOJ5bGL55S677yR77yW77yT4oiS77yRIOacqOWxi-eUuuODk-ODqw!5e0!3m2!1sja!2sjp!4v1630140115282!5m2!1sja!2sjp" style="border: 0" allowfullscreen="" loading="lazy" class="map"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.2491456095363!2d135.76703891524033!3d35.00046788035857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001091bc64dcf13%3A0x308ec91bcf9a8aea!2z44K344On44O844Oz44OP44Kk44OI44Ku44Oj44Op44Oq44O8IFNlbiB8IOaziQ!5e0!3m2!1sja!2sjp!4v1631813433550!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
 
         <h3>
-          キャッチになる伝わるやつ、インスタのでもいいですし<br />
-          いい感じの文章をここに入れると良いですはい
+          本写真展は感染症対策を万全にして実施します。<br>
+          感染症対策へのご協力お願い致します。
         </h3>
       </section>
     </wrapper>
@@ -113,11 +119,9 @@
           <ul>
             <li><a href="#intro">概要</a></li>
             <li><a href="#works">出展作品</a></li>
-            <li><a href="#info">イベント</a></li>
+            <li><a href="#info">イベント情報</a></li>
             <li>
-              <a href="https://www.instagram.com/kokoro_kokoni_pr">
-                <i class="fab fa-instagram insta"></i>
-              </a>
+              <a href="https://www.instagram.com/kokoro_kokoni_pr"><i class="fab fa-instagram insta"></i></a>
             </li>
           </ul>
         </nav>

@@ -5,17 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
-    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons&display=swap" rel="preload" as="style" onload="this.rel='stylesheet'">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" as="font" type="font/woff2" crossorigin href="https://use.fontawesome.com/releases/v5.0.8/webfonts/fa-brands-400.woff2"/>
     <title>こころ、ここに。</title>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons&display=swap">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    </noscript>
+    <script>!function(n){"use strict";n.loadCSS||(n.loadCSS=function(){});var o=loadCSS.relpreload={};if(o.support=function(){var e;try{e=n.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),o.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},o.poly=function(){if(!o.support())for(var t=n.document.getElementsByTagName("link"),e=0;e<t.length;e++){var a=t[e];"preload"!==a.rel||"style"!==a.getAttribute("as")||a.getAttribute("data-loadcss")||(a.setAttribute("data-loadcss",!0),o.bindMediaToggle(a))}},!o.support()){o.poly();var t=n.setInterval(o.poly,500);n.addEventListener?n.addEventListener("load",function(){o.poly(),n.clearInterval(t)}):n.attachEvent&&n.attachEvent("onload",function(){o.poly(),n.clearInterval(t)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:n.loadCSS=loadCSS}("undefined"!=typeof global?global:this);</script>
+    <script>/*! modernizr 3.6.0 (Custom Build) | MIT | https://modernizr.com/download/?-webp-setclasses !*/ !function(e,n,A){function o(e,n){return typeof e===n}function t(){var e,n,A,t,a,i,l;for(var f in r)if(r.hasOwnProperty(f)){if(e=[],n=r[f],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(A=0;A<n.options.aliases.length;A++)e.push(n.options.aliases[A].toLowerCase());for(t=o(n.fn,"function")?n.fn():n.fn,a=0;a<e.length;a++)i=e[a],l=i.split("."),1===l.length?Modernizr[l[0]]=t:(!Modernizr[l[0]]||Modernizr[l[0]]instanceof Boolean||(Modernizr[l[0]]=new Boolean(Modernizr[l[0]])),Modernizr[l[0]][l[1]]=t),s.push((t?"":"no-")+l.join("-"))}}function a(e){var n=u.className,A=Modernizr._config.classPrefix||"";if(c&&(n=n.baseVal),Modernizr._config.enableJSClass){var o=new RegExp("(^|\\s)"+A+"no-js(\\s|$)");n=n.replace(o,"$1"+A+"js$2")}Modernizr._config.enableClasses&&(n+=" "+A+e.join(" "+A),c?u.className.baseVal=n:u.className=n)}function i(e,n){if("object"==typeof e)for(var A in e)f(e,A)&&i(A,e[A]);else{e=e.toLowerCase();var o=e.split("."),t=Modernizr[o[0]];if(2==o.length&&(t=t[o[1]]),"undefined"!=typeof t)return Modernizr;n="function"==typeof n?n():n,1==o.length?Modernizr[o[0]]=n:(!Modernizr[o[0]]||Modernizr[o[0]]instanceof Boolean||(Modernizr[o[0]]=new Boolean(Modernizr[o[0]])),Modernizr[o[0]][o[1]]=n),a([(n&&0!=n?"":"no-")+o.join("-")]),Modernizr._trigger(e,n)}return Modernizr}var s=[],r=[],l={_version:"3.6.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var A=this;setTimeout(function(){n(A[e])},0)},addTest:function(e,n,A){r.push({name:e,fn:n,options:A})},addAsyncTest:function(e){r.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=l,Modernizr=new Modernizr;var f,u=n.documentElement,c="svg"===u.nodeName.toLowerCase();!function(){var e={}.hasOwnProperty;f=o(e,"undefined")||o(e.call,"undefined")?function(e,n){return n in e&&o(e.constructor.prototype[n],"undefined")}:function(n,A){return e.call(n,A)}}(),l._l={},l.on=function(e,n){this._l[e]||(this._l[e]=[]),this._l[e].push(n),Modernizr.hasOwnProperty(e)&&setTimeout(function(){Modernizr._trigger(e,Modernizr[e])},0)},l._trigger=function(e,n){if(this._l[e]){var A=this._l[e];setTimeout(function(){var e,o;for(e=0;e<A.length;e++)(o=A[e])(n)},0),delete this._l[e]}},Modernizr._q.push(function(){l.addTest=i}),Modernizr.addAsyncTest(function(){function e(e,n,A){function o(n){var o=n&&"load"===n.type?1==t.width:!1,a="webp"===e;i(e,a&&o?new Boolean(o):o),A&&A(n)}var t=new Image;t.onerror=o,t.onload=o,t.src=n}var n=[{uri:"data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA=",name:"webp"},{uri:"data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAABBxAR/Q9ERP8DAABWUDggGAAAADABAJ0BKgEAAQADADQlpAADcAD++/1QAA==",name:"webp.alpha"},{uri:"data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA",name:"webp.animation"},{uri:"data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=",name:"webp.lossless"}],A=n.shift();e(A.name,A.uri,function(A){if(A&&"load"===A.type)for(var o=0;o<n.length;o++)e(n[o].name,n[o].uri)})}),t(),a(s),delete l.addTest,delete l.addAsyncTest;for(var p=0;p<Modernizr._q.length;p++)Modernizr._q[p]();e.Modernizr=Modernizr}(window,document);</script>
+    <script src="/js/lazysizes.min.js" async></script>
   </head>
 
   <body>
     <header class="firstview" id="f-view">
       <picture>
-        <source type="image/webp" srcset="img/firstview.png" />
-        <img src="img/firstview.png" alt="こころ、ここに。" class="fv-img" />
+        <source type="image/webp" srcset="/img/firstview.webp" />
+        <img data-src="/img/firstview.png" alt="こころ、ここに。" class="fv-img lazyload" />
       </picture>
     </header>
 
@@ -40,33 +47,33 @@
       <section class="sec" id="works">
         <h1 class="sec-title">– 出展作品 –</h1>
         <div class="works-all">
-          <before-button data-photo-id="ciel"></before-button>
-          <before-button data-photo-id="jesse"></before-button>
-          <before-button data-photo-id="gakki"></before-button>
-          <before-button data-photo-id="a-kichi"></before-button>
-          <before-button data-photo-id="antony"></before-button>
+          <before-button data-photo-id="ciel" data-pos-x="73" data-zoom="2.1"></before-button>
+          <before-button data-photo-id="jesse" data-pos-x="43" data-zoom="1.1"></before-button>
+          <before-button data-photo-id="gakki" data-pos-x="39"></before-button>
+          <before-button data-photo-id="a-kichi" data-pos-x="50"></before-button>
+          <before-button data-photo-id="antony" data-pos-x="68"></before-button>
           <hr />
-          <before-button data-photo-id="takoyaki"></before-button>
-          <before-button data-photo-id="kimukimu"></before-button>
-          <before-button data-photo-id="miyuseru"></before-button>
-          <before-button data-photo-id="kony"></before-button>
-          <before-button data-photo-id="mizu"></before-button>
+          <before-button data-photo-id="takoyaki" data-pos-x="63"></before-button>
+          <before-button data-photo-id="kimukimu" data-pos-x="80" data-zoom="2.2"></before-button>
+          <before-button data-photo-id="miyuseru" data-pos-x="43"></before-button>
+          <before-button data-photo-id="kony" data-pos-x="51"></before-button>
+          <before-button data-photo-id="mizu" data-pos-x="37"></before-button>
           <hr />
-          <before-button data-photo-id="sawakkuma"></before-button>
-          <before-button data-photo-id="chihiro"></before-button>
-          <before-button data-photo-id="ayumin"></before-button>
-          <before-button data-photo-id="ebisuke"></before-button>
-          <before-button data-photo-id="lila"></before-button>
+          <before-button data-photo-id="sawakkuma" data-pos-x="54" data-zoom="2"></before-button>
+          <before-button data-photo-id="chihiro" data-pos-x="43"></before-button>
+          <before-button data-photo-id="ayumin" data-pos-x="70"></before-button>
+          <before-button data-photo-id="ebisuke" data-pos-x="100"></before-button>
+          <before-button data-photo-id="lila" data-pos-x="50" data-zoom="2.2"></before-button>
           <hr />
-          <before-button data-photo-id="see"></before-button>
-          <before-button data-photo-id="tomitan"></before-button>
-          <before-button data-photo-id="ronron"></before-button>
-          <before-button data-photo-id="switchro"></before-button>
-          <before-button data-photo-id="gassi"></before-button>
+          <before-button data-photo-id="see" data-pos-x="70"></before-button>
+          <before-button data-photo-id="tomitan" data-pos-x="43"></before-button>
+          <before-button data-photo-id="ronron" data-pos-x="50"></before-button>
+          <before-button data-photo-id="switchro" data-pos-x="50"></before-button>
+          <before-button data-photo-id="gassi" data-pos-x="50"></before-button>
           <hr />
-          <before-button data-photo-id="mittan"></before-button>
-          <before-button data-photo-id="watayo"></before-button>
-          <before-button data-photo-id="co4"></before-button>
+          <before-button data-photo-id="mittan" data-pos-x="75" data-zoom="2"></before-button>
+          <before-button data-photo-id="watayo" data-pos-x="55" data-zoom="2.3"></before-button>
+          <before-button data-photo-id="co4" data-pos-x="50"></before-button>
         </div>
 
         <!-- モーダル -->
@@ -125,8 +132,12 @@
         <p><a href="#f-view">こころ、ここに。</a></p>
       </div>
     </footer>
-    <script src="works.js"></script>
-    <script src="defineElements.js"></script>
-    <script src="popup.js"></script>
+    <script src="/js/works.js"></script>
+    <script src="/js/defineElements.js"></script>
+    <script src="/js/popup.js"></script>
+    <picture>
+      <source type="image/webp" srcset="/img/back.webp" />
+      <img data-src="/img/back.png" class="background lazyload" />
+    </picture>
   </body>
 </html>

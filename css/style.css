@@ -32,7 +32,8 @@ body {
 }
 
 .fv-img.sp {
-  height: 115vw;
+  height: 133.4vw;
+  object-fit: contain;
 }
 
 .fv-img, .before img, .background {
